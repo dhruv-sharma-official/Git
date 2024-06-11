@@ -1,0 +1,5 @@
+to setup git first download it on the system
+in git bash use following commands
+# git --config user.name "username"  // the username which we want to use to make the changes
+# git --config user.email "emailid@email.com"  // to add the email id on which we want to perform the changes
+# git --list   // to list down all the configuration

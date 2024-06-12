@@ -29,3 +29,9 @@ add - adds new or changed files in your working directory to the git staging are
 
 commit - it is the record of change
 # git commit -m "message about change"
+
+after commiting we are ready to push the code to remote repo
+for that we will use push command which is
+
+# git push origin main
+here push helps to upload code to remote repo and main is the address of the branch (main branch here)

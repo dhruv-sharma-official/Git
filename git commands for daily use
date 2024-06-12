@@ -1,1 +1,31 @@
 here are all the necessary git github commands for daily use
+
+when we start working on any project first we have to make a repository on github and then clone it to the local machine using "git clone"
+# git clone <repo link>
+
+if the repo is public it will be cloned directly but if it is private git will ask you to signin using your browser and once you signin git will be automatically connected to your github account
+
+after that we can start working on our cloned project
+
+after modifing a file in our project the git status command will show the files which we have modified and we need to commit them
+and if we create a new file it will show that file as an untracked file
+
+there are 4 types of status of a file:
+1. modified
+ some changes are done in the file
+2. untracked
+ a new file detected which is tracked yet
+3. staged
+ file is staged and ready to commit
+4. unmodified
+ unchanged files
+
+commit process will consist of two processes which are add and commit
+
+when we apply add on a file it will be staged and when we commit it the status will set to unchanged
+
+add - adds new or changed files in your working directory to the git staging are
+# git add <filename>
+
+commit - it is the record of change
+# git commit -m "message about change"

@@ -107,7 +107,8 @@ after that we have pull command
 
 if we have changed something on remote repo and we want it to revert on our local repo then we can use this command
 
-
+remember we have to do all these merging operation on our local machine repo and then we have to push it.
+if we push it first then it will show us "Already up to date"
 
 
 

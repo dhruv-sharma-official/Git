@@ -120,6 +120,27 @@ if we have some changes on both branches then git is confused to select the chan
 
 conflict resolved on this line
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+now we have to undo changes
+
+if we have mistakenly done something wrong on repos, so how can we undo changes
+so we have a category with the stage of changes
+
+case 1: staged changes
+
+## git reset <filename>  // to reset one specific file
+## git reset          // to reset all files
+
+case 2: commited changes (for 1 commit)
+
+## git reset HEAD~1             //
+
+case 3: commited changes (for many commits)
+
+## git reset <commithash>
+## git reset --hard <commithash>
+
 
 
 

@@ -35,3 +35,71 @@ for that we will use push command which is
 
 # git push origin main
 here push helps to upload code to remote repo and main is the address of the branch (main branch here)
+
+
+=============================================================
+init - used to connect a new git repo // first we have to make a new git repo on github then we will connect that repo to our cli for further use
+
+git init
+
+git remote add origin <link>    // to add remote repo to the git cli
+
+git remote -v  // to verify remote
+
+git branch // to check branch
+
+git branch -M main   // to rename branch
+
+git push origin main  // to push the files on main branch
+
+now we will see -u tag in git push command
+
+git push -u origin main    // here -u means upstream that means we want to set a upstream with main, we want to do all the work on main so next time when we use this command we just have to use "git push" and it will work on main because we have setted main as a upstream
+
+############ so our work flow will be like 
+
+github repo
+  |
+clone
+  |
+changes
+  |
+add 
+  |
+commit
+  |
+push
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+now we will see git branches
+
+git branch   // to check the branch
+
+git branch -M main  // to rename branch
+
+git checkout <branch name>   // to navigate through branches
+
+git checkout -b <new branch name>   // to create new branch
+
+git branch -d <branch name>   // to delete branch
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+merging two branches
+
+git diff <branch name>   // to compare commits, branches, files & more)
+
+git merge <branch name>  // to merge 2 branches
+
+or
+
+we can just create a PR (pull request on github and merge our branches)
+
+PR request can be used using github online and the branches could be merged
+
+
+
+
+
+
+

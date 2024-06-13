@@ -99,9 +99,15 @@ PR request can be used using github online and the branches could be merged
 
 after that there is a cli way, which is to first compare the codes using git diff and then merge both branches using git merge
 
-## git diff   // list down the differences between both branches
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-## git merge  // merge both branches
+after that we have pull command
+
+## git pull origin <branch name>   // fetches all the changes on remote repo to our local repo
+
+if we have changed something on remote repo and we want it to revert on our local repo then we can use this command
+
+
 
 
 

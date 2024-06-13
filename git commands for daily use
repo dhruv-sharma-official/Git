@@ -118,7 +118,7 @@ now we have git conflicts
 conflicts occur a lot of time on git operations, because of different changes on main and other branches 
 if we have some changes on both branches then git is confused to select the changes so we have to first both the files with changes and then merge them so that the changes will be save correctly resolving the conflict
 
-
+conflict resolved on this line
 
 
 

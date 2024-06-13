@@ -97,6 +97,10 @@ we can just create a PR (pull request on github and merge our branches)
 
 PR request can be used using github online and the branches could be merged
 
+after that there is a cli way, which is to first compare the codes using git diff and then merge both branches using git merge
+
+
+
 
 
 
